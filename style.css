@@ -1,0 +1,120 @@
+body
+{
+    background-color: var(--very_light_gray);
+    color: var(--transparent_white);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 12px;
+
+}
+:root {
+    --bright_orange: hsl(31, 77%, 52%);
+    --dark_cyan: hsl(184, 100%, 22%);
+    --very_dark_cyan: hsl(179, 100%, 13%);
+    /* paragraphs */
+    --transparent_white: hsla(0, 0%, 100%, 0.75);
+    /* background, headings, buttons */
+    --very_light_gray: hsl(0, 0%, 95%);
+    /* shadow */
+    --shadow: hsl(180, 27%, 64%);
+}
+h1 
+{
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 30px;
+    color: var(--very_light_gray);
+}
+p
+{
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 1.8;
+
+}
+#container
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 0 5px 30px 10px var(--shadow);
+}
+.column1
+{
+    width: 200px;
+    height: 380px;
+    padding: 40px;
+    text-align: left;
+    float:left;
+
+    background-color: var(--bright_orange);
+    border-radius: 10px 0px 0px 10px;
+}
+.column2
+{
+    width: 200px;
+    height: 380px;
+    padding: 40px;
+    text-align: left;
+    float:left;
+
+    background-color: var(--dark_cyan);
+}
+.column3
+{
+    width: 200px;
+    height: 380px;
+    padding: 40px;
+    text-align: left;
+    float:left;
+
+    background-color: var(--very_dark_cyan);
+    border-radius: 0px 10px 10px 0px;
+}
+.icons
+{
+    margin-top: 40px;
+    width: 50px;
+}
+.button1
+{
+    background-color: var(--very_light_gray);
+    margin-top: 50px;
+    width: 100px;
+    border-radius: 12px;
+    text-align: center;
+    padding: 5px;
+
+    color: var(--bright_orange);
+}
+.button1:hover {
+    background-color: var(--transparent_white);
+}
+.button2
+{
+    background-color: var(--very_light_gray);
+    margin-top: 50px;
+    width: 100px;
+    border-radius: 12px;
+    text-align: center;
+    padding: 5px;
+
+    color: var(--dark_cyan);
+}
+.button2:hover {
+    background-color: var(--transparent_white);
+}
+.button3
+{
+    background-color: var(--very_light_gray);
+    margin-top: 50px;
+    width: 100px;
+    border-radius: 12px;
+    text-align: center;
+    padding: 5px;
+
+    color: var(--very_dark_cyan);
+}
+.button3:hover {
+    background-color: var(--transparent_white);
+}
